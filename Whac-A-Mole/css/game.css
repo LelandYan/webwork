@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 14px;
+}
+#game{
+	position: relative;
+	margin-top: 100px;
+	margin-left:500px;
+}
+.box{
+	position: absolute;
+	background: #ccc;
+	border:1px solid white;
+}
+.imgs{
+	position: absolute;
+	background:url(../imgs/1.jpg);
+	background-size: 60px 60px;
+	cursor: pointer;
+}
+.imgss{
+	position: absolute;
+	background:url(../imgs/2.jpg);
+	background-size: 60px 60px;
+	cursor: pointer;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>2048</title>
+		<link rel="stylesheet" href="include/css/2048.css" />
+		<script type="text/javascript" src="js/2048.js" ></script>
+	</head>
+	<body>
+		<div class="head">
+			<div class="score">
+				<span>Score:</span>
+				<span id="score"></span>
+			</div>
+			<div class="buttons">
+				<a href="#" class="buttonstyle" onclick="mute()">Mute/Play Music</a>
+				<a href="#" class="buttonstyle" onclick="reNew()">Renew</a>
+				<a href="#" class="buttonstyle" onclick="obj.clickCounter()">Recall</a>
+			    <span>BestScore:</span>
+				<span id="bestScore"></span>
+			</div>
+		</div>
+		<div id="background"></div>
+		<div id="gameover">
+			<h1 id="Score"></h1>
+			<a href="#" id="again" onclick="obj.gameStart()" >Try again</a>
+		</div>
+		<audio id="music">
+			<source src="include/Chelsy-I Will.mp3" type="audio/mp3"></source>
+		</audio>
+	</body>
+</html>
