@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <title>用户注册</title>
+</head>
+  <style type="text/css">
+    body{color:#efd;background:#453;padding:0 5em;margin:0}
+    h1{padding:2em 1em;background:#675}
+    h2{color:#bf8;border-top:1px dotted #fff;margin-top:2em}
+    p{margin:1em 0}
+  </style>
+<body>
+<h1>注册页面：</h1>
+<form method = 'post' action="/register/">
+{#         <label for="oUser">Username</label>#}
+{#            <br>#}
+{#            <input  type="text" name="text" >#}
+{#            <br>#}
+{#            <label for="oPassword">Password</label>#}
+{#            <br>#}
+{#            <input  type="password" name="password" >#}
+{#     <br>#}
+{#            <label for="oPassword">Password</label>#}
+{#            <br>#}
+{#            <input  type="password" name="password" >#}
+{#     <br>#}
+{#            <label for="oPassword">email</label>#}
+{#            <br>#}
+{#            <input  type="text" name="password" >#}
+{#     <br>#}
+{{uf.as_p}}
+{{errors}}
+</br>
+<input type="submit" value = "ok" />
+</form>
+</body>
+</html>
